@@ -38,6 +38,9 @@ section#log {
   height: 500px;
   border-radius: 20px;
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.45);
+
+  transition: width 0.3, heigth 0.3;
+  transition-timing-function: ease;
 }
 
 section#log > div#imagem {
